@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{ 
+    width: 1800px;
+    margin: 0 auto;
+}
+.img{
+    background: url(../img/applications-of-computer-programming.webp)no-repeat center/cover fixed;
+    min-width: 100vh;
+    min-height: 100vh;
+}
+.images{
+    width: 370px;
+    height: 370px;
+    background: black;
+    color: blueviolet;
+    text-align: center;
+    margin: 50px;
+}
+h1{
+    margin-bottom: 20px;
+
+}
+.blok{
+    display: flex;
+    justify-content: space-around;
+}

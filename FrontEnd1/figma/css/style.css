@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+#head{
+    background: #FCD000;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h3{
+    padding-left: 100px;
+}
+#info{
+    background: #FCD000;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.info-title{
+    padding-top: 30px;
+}
+.info-img{
+    padding-top: 30px;
+}
+p{
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+h1{
+    font-family: 'Arial';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 41px;
+   
+
+   color: #000;
+}
+h4{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    
+ 
+    color: #000;
+    padding-top: 15px;
+ }  
+ #bed{
+    background: white;
+ }
+h1{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+   
+    
+    color: #000000;
+    
+}
+h4{
+    font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+color: #000000;
+
+}
+.color-nn{
+    padding-top: 20px;
+}
+#free{
+    background: white;
+}
+.free{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.free-tt{
+    padding-top: 20px;
+}
+.blok1{
+    width: 300px;
+   height: 320px;
+   background: #404040;
+   border-radius: 12px;
+   color: aliceblue;
+   text-align: center;
+ }
+ .alisher{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+   
+ }
+ p{
+    padding-top: 30px;
+    font-size: 17px;
+}
+.blok2{
+    width: 300px;
+   height: 320px;
+   background: #F74C55;
+   border-radius: 12px;
+   color: aliceblue;
+   text-align: center;
+}
+.blok3{
+    width: 300px;
+height: 320px;
+background: #2D5F3B;
+border-radius: 12px;
+color: aliceblue;
+text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+   
+}
+#aisha{
+    padding-left: 0px;
+    padding-top: 300px;
+    padding-bottom: 200px;
+    background: #404040;
+}
+.aisha{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.aa{
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+
+color: white;
+}

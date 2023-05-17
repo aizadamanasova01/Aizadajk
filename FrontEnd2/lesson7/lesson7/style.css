@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper_inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.badge {
+    background-color: black;
+    color: #ffffff;
+    padding: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+
+
+.counter {
+    width: 500px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.counter button {
+    padding: 15px 10px;
+}

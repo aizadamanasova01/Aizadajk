@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+#animation{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwWqPe0wNKsNKG9gDzN_J-NPoPSPKHw1-5bQ&usqp=CAU) no-repeat center/cover;
+    min-width: 100vh;
+    min-height: 100vh;
+}
+h2{
+    color: rgb(231, 10, 102);
+    text-align: center;
+    font-size: 40px;
+    animation: title 2s alternate;
+}
+
+
+@keyframes title{
+    0%{
+        transform: translateY(400px);
+        opacity: 0;
+
+
+    }
+    50%{
+        opacity: 0.4;
+        color: rgb(255, 0, 0);
+
+
+    }
+
+
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+img1{
+    animation: img 2s alternate;
+
+}
+
+@keyframes img{
+    0%{
+        transform: translateX(500px);
+        opacity: 0;
+
+
+    }
+    50%{
+        opacity: 0;
+
+
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
